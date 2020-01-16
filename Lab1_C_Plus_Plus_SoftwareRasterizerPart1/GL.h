@@ -11,7 +11,7 @@
 // Globals that define how to draw our shapes.
 const int LINE = 0;
 const int FILL = 1;
-int glFillMode = LINE;
+int glFillMode = FILL;
 
 // By default the Fill mode is LINE
 void glPolygonMode(const int mode){
