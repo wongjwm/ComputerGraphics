@@ -1,0 +1,3 @@
+/Users/judywong/Desktop/ComputerGraphics/Assignment1_MathFoundations1/build/CMakeFiles/rebuild_cache.dir
+/Users/judywong/Desktop/ComputerGraphics/Assignment1_MathFoundations1/build/CMakeFiles/edit_cache.dir
+/Users/judywong/Desktop/ComputerGraphics/Assignment1_MathFoundations1/build/CMakeFiles/Assignment1.dir

@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++   -isysroot /Users/judywong/Qt/5.14.0/clang_64/lib/cmake/Qt5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Assignment1.dir/src/main.cpp.o  -o Assignment1 

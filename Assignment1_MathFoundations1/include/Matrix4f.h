@@ -41,7 +41,10 @@ public:
 
     // Makes the matrix an identity matrix
     void identity(){
-        // TODO:
+      n[0][0] = 1; n[0][1] = 0; n[0][2] = 0; n[0][3] = 0;
+      n[1][0] = 0; n[1][1] = 1; n[1][2] = 0; n[1][3] = 0;
+      n[2][0] = 0; n[2][1] = 0; n[2][2] = 1; n[2][3] = 0;
+      n[3][0] = 0; n[3][1] = 0; n[3][2] = 0; n[3][3] = 1;
     }
 
     // Index operator with two dimensions
@@ -68,44 +71,35 @@ public:
 
     // Make a matrix rotate about various axis
     Matrix4f MakeRotationX(float t){
-        // TODO:
-        return(Matrix4f()); // You will need to modify this.
-                            // When you test, test against glm_gtx_transform
-    }
-    Matrix4f MakeRotationY(float t){
-        // TODO:
-        return(Matrix4f()); // You will need to modify this.
-                            // When you test, test against glm_gtx_transform
-    }
-    Matrix4f MakeRotationZ(float t){
-        // TODO:
-        return(Matrix4f()); // You will need to modify this.
-                            // When you test, test against glm_gtx_transform
-    }
-    Matrix4f MakeScale(float sx,float sy, float sz){
-        // TODO:
-        return(Matrix4f()); // You will need to modify this.
-                            // When you test, test against glm_gtx_transform
+        return Matrix4f(1, 0, 0, 0, 0, cos(t), -sin(t), 0, 0, sin(t), cos(t), 0, 0, 0 ,0, 1); 
     }
 
+    Matrix4f MakeRotationY(float t){
+        return Matrix4f(cos(t), 0, -sin(t), 0, 0, 1, 0, 0, sin(t), 0, cos(t), 0, 0, 0, 0, 1);
+    }
+
+    Matrix4f MakeRotationZ(float t){
+        return Matrix4f(cos(t), -sin(t), 0, 0, sin(t), cos(t), 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+
+    Matrix4f MakeScale(float sx,float sy, float sz){
+        return Matrix4f(sx, 0, 0, 0, 0, sy, 0, 0, 0, 0, sz, 0, 0, 0, 0, 1); 
+    }
 
 };
 
 // Matrix Multiplication
 Matrix4f operator *(const Matrix4f& A, const Matrix4f& B){
-  // TODO:
-  Matrix4f mat4;
-
-  return mat4;
+  return Matrix4f(
+    Dot(A[0], B[0]), Dot(A[0], B[1]), Dot(A[0], B[2]), Dot(A[0], B[3]),
+    Dot(A[1], B[0]), Dot(A[1], B[1]), Dot(A[1], B[2]), Dot(A[1], B[3]),
+    Dot(A[2], B[0]), Dot(A[2], B[1]), Dot(A[2], B[2]), Dot(A[2], B[3]),
+    Dot(A[3], B[0]), Dot(A[3], B[1]), Dot(A[3], B[2]), Dot(A[3], B[3])
+  );
 }
 
-// Matrix multiply by a vector
-
-Vector4f operator *(const Matrix4f& M, const Vector4f& v){
-  // TODO:
-  Vector4f vec;
-
-  return vec;
+Vector4f operator *(const Matrix4f& M, const Vector4f& v) {
+  return Vector4f(Dot(M[0], v), Dot(M[1], v), Dot(M[2], v), Dot(M[3], v));
 }
 
 
