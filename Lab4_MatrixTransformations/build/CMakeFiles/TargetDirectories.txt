@@ -1,0 +1,4 @@
+/Users/judywong/Desktop/ComputerGraphics/Lab4_MatrixTransformations/build/CMakeFiles/rebuild_cache.dir
+/Users/judywong/Desktop/ComputerGraphics/Lab4_MatrixTransformations/build/CMakeFiles/edit_cache.dir
+/Users/judywong/Desktop/ComputerGraphics/Lab4_MatrixTransformations/build/CMakeFiles/Lab.dir
+/Users/judywong/Desktop/ComputerGraphics/Lab4_MatrixTransformations/build/CMakeFiles/Lab_autogen.dir

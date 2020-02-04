@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/judywong/Desktop/ComputerGraphics/Lab3_Starfield/StarList.cpp
+StarList.h
+/Users/judywong/Desktop/ComputerGraphics/Lab3_Starfield/StarList.h
+math.h
+-
+
+/Users/judywong/Desktop/ComputerGraphics/Lab3_Starfield/StarList.h
+QtCore/QVector
+-
+QtCore/QRandomGenerator
+-
+QtGui/QColor
+-
+QtGui/QImage
+-
+

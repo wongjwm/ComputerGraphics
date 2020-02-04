@@ -1,0 +1,4 @@
+/Users/judywong/Desktop/ComputerGraphics/Lab3_Starfield/build/CMakeFiles/rebuild_cache.dir
+/Users/judywong/Desktop/ComputerGraphics/Lab3_Starfield/build/CMakeFiles/edit_cache.dir
+/Users/judywong/Desktop/ComputerGraphics/Lab3_Starfield/build/CMakeFiles/Lab2.dir
+/Users/judywong/Desktop/ComputerGraphics/Lab3_Starfield/build/CMakeFiles/Lab2_autogen.dir
