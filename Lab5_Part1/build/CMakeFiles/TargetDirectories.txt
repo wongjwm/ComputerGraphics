@@ -1,0 +1,4 @@
+/Users/judywong/Desktop/ComputerGraphics/Lab5_Part1/build/CMakeFiles/rebuild_cache.dir
+/Users/judywong/Desktop/ComputerGraphics/Lab5_Part1/build/CMakeFiles/edit_cache.dir
+/Users/judywong/Desktop/ComputerGraphics/Lab5_Part1/build/CMakeFiles/Lab.dir
+/Users/judywong/Desktop/ComputerGraphics/Lab5_Part1/build/CMakeFiles/Lab_autogen.dir
