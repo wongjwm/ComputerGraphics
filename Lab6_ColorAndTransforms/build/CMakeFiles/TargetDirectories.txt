@@ -1,0 +1,4 @@
+/Users/judywong/Desktop/ComputerGraphics/Lab6_ColorAndTransforms/build/CMakeFiles/rebuild_cache.dir
+/Users/judywong/Desktop/ComputerGraphics/Lab6_ColorAndTransforms/build/CMakeFiles/edit_cache.dir
+/Users/judywong/Desktop/ComputerGraphics/Lab6_ColorAndTransforms/build/CMakeFiles/App.dir
+/Users/judywong/Desktop/ComputerGraphics/Lab6_ColorAndTransforms/build/CMakeFiles/App_autogen.dir

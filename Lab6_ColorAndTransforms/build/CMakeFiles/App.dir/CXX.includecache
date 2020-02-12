@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/judywong/Desktop/ComputerGraphics/Lab6_ColorAndTransforms/BasicWidget.cpp
+BasicWidget.h
+/Users/judywong/Desktop/ComputerGraphics/Lab6_ColorAndTransforms/BasicWidget.h
+QMatrix4x4.h
+/Users/judywong/Desktop/ComputerGraphics/Lab6_ColorAndTransforms/QMatrix4x4.h
+
+/Users/judywong/Desktop/ComputerGraphics/Lab6_ColorAndTransforms/BasicWidget.h
+QtGui
+-
+QtWidgets
+-
+QtOpenGL
+-
+
+/Users/judywong/Qt/5.14.0/clang_64/lib/QtGui.framework/Headers/QMatrix4x4.h
+QtGui/qtguiglobal.h
+-
+QtGui/qvector3d.h
+-
+QtGui/qvector4d.h
+-
+QtGui/qquaternion.h
+-
+QtGui/qgenericmatrix.h
+-
+QtCore/qrect.h
+-
+
+/Users/judywong/Qt/5.14.0/clang_64/lib/QtGui.framework/QtGui
+
+/Users/judywong/Qt/5.14.0/clang_64/lib/QtOpenGL.framework/QtOpenGL
+
+/Users/judywong/Qt/5.14.0/clang_64/lib/QtWidgets.framework/QtWidgets
+
