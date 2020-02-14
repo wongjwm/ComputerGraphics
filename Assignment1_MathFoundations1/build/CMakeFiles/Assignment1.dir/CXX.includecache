@@ -1105,6 +1105,8 @@ Matrix4f.h
 /Users/judywong/Desktop/ComputerGraphics/Assignment1_MathFoundations1/src/Matrix4f.h
 iostream
 -
+math.h
+-
 glm/glm.hpp
 -
 glm/gtx/transform.hpp
