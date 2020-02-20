@@ -7,9 +7,15 @@
 #include <QtOpenGL>
 
 // Lab application
-#include "Application.h"
+#include "Parser.h"
+#include "Parser.cpp"
+
+#include <iostream>
+
+#include <Application.h>
 
 int main(int argc, char** argv) {
+
   QApplication a(argc, argv);
   QString appDir = a.applicationDirPath();
   QDir::setCurrent(appDir);

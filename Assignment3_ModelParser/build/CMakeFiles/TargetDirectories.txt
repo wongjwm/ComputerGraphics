@@ -1,0 +1,4 @@
+/Users/judywong/Desktop/ComputerGraphics/Assignment3_ModelParser/build/CMakeFiles/rebuild_cache.dir
+/Users/judywong/Desktop/ComputerGraphics/Assignment3_ModelParser/build/CMakeFiles/edit_cache.dir
+/Users/judywong/Desktop/ComputerGraphics/Assignment3_ModelParser/build/CMakeFiles/Assignment.dir
+/Users/judywong/Desktop/ComputerGraphics/Assignment3_ModelParser/build/CMakeFiles/Assignment_autogen.dir
