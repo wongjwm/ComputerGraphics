@@ -1,0 +1,4 @@
+/Users/judywong/Desktop/ComputerGraphics/Lab7_AbstractionsAndTextures/build/CMakeFiles/rebuild_cache.dir
+/Users/judywong/Desktop/ComputerGraphics/Lab7_AbstractionsAndTextures/build/CMakeFiles/edit_cache.dir
+/Users/judywong/Desktop/ComputerGraphics/Lab7_AbstractionsAndTextures/build/CMakeFiles/App.dir
+/Users/judywong/Desktop/ComputerGraphics/Lab7_AbstractionsAndTextures/build/CMakeFiles/App_autogen.dir

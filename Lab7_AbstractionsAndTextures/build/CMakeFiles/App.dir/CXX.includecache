@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/judywong/Desktop/ComputerGraphics/Lab7_AbstractionsAndTextures/BasicWidget.cpp
+BasicWidget.h
+/Users/judywong/Desktop/ComputerGraphics/Lab7_AbstractionsAndTextures/BasicWidget.h
+
+/Users/judywong/Desktop/ComputerGraphics/Lab7_AbstractionsAndTextures/BasicWidget.h
+QtGui
+-
+QtWidgets
+-
+QtOpenGL
+-
+Renderable.h
+/Users/judywong/Desktop/ComputerGraphics/Lab7_AbstractionsAndTextures/Renderable.h
+
+/Users/judywong/Desktop/ComputerGraphics/Lab7_AbstractionsAndTextures/Renderable.h
+QtCore
+-
+QtGui
+-
+QtOpenGL
+-
+
+/Users/judywong/Qt/5.14.0/clang_64/lib/QtCore.framework/QtCore
+
+/Users/judywong/Qt/5.14.0/clang_64/lib/QtGui.framework/QtGui
+
+/Users/judywong/Qt/5.14.0/clang_64/lib/QtOpenGL.framework/QtOpenGL
+
+/Users/judywong/Qt/5.14.0/clang_64/lib/QtWidgets.framework/QtWidgets
+
