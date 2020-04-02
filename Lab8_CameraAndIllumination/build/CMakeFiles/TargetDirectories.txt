@@ -1,0 +1,4 @@
+/Users/judywong/Desktop/ComputerGraphics/Lab8_CameraAndIllumination/build/CMakeFiles/rebuild_cache.dir
+/Users/judywong/Desktop/ComputerGraphics/Lab8_CameraAndIllumination/build/CMakeFiles/edit_cache.dir
+/Users/judywong/Desktop/ComputerGraphics/Lab8_CameraAndIllumination/build/CMakeFiles/App.dir
+/Users/judywong/Desktop/ComputerGraphics/Lab8_CameraAndIllumination/build/CMakeFiles/App_autogen.dir

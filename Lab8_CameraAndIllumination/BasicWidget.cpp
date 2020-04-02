@@ -59,11 +59,16 @@ void BasicWidget::mouseMoveEvent(QMouseEvent* mouseEvent)
   }
   QPoint delta = mouseEvent->pos() - lastMouseLoc_;
   lastMouseLoc_ = mouseEvent->pos();
+  float scale = 0.125;
   if (mouseAction_ == Rotate) {
     // TODO:  Implement rotating the camera
+      QVector3D up = camera_.upVector();
+      camera_.translateLookAt(up * delta.y() * scale);
   } else if (mouseAction_ == Zoom) {
     // TODO:  Implement zoom by moving the camera
     // Zooming is moving along the gaze direction by some amount.
+      QVector3D gaze = camera_.gazeVector();
+      camera_.translateCamera(gaze * delta.y() * scale);
   } 
   update();
 }
@@ -80,8 +85,8 @@ void BasicWidget::initializeGL()
 
   qDebug() << QDir::currentPath();
   // TODO:  You may have to change these paths.
-  QString brickTex = "../../brick.ppm";
-  QString grassTex = "../../grass.ppm";
+  QString brickTex = "../brick.ppm";
+  QString grassTex = "../grass.ppm";
 
   UnitQuad* backWall = new UnitQuad();
   backWall->init(brickTex);
