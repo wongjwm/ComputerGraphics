@@ -1,0 +1,4 @@
+/Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/build/CMakeFiles/rebuild_cache.dir
+/Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/build/CMakeFiles/edit_cache.dir
+/Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/build/CMakeFiles/Assignment.dir
+/Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/build/CMakeFiles/Assignment_autogen.dir
