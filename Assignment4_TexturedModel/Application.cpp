@@ -1,8 +1,10 @@
 #include "Application.h"
 #include "BasicWidget.h"
+using namespace std;
 
-Application::Application(QWidget* parent) : QMainWindow(parent)
+Application::Application(string objFile, QWidget* parent) : QMainWindow(parent)
 {
+  objectFile = objFile;
   buildGui();
 }
 
@@ -17,6 +19,6 @@ void Application::buildGui()
   QAction* exit = file->addAction("Quit", [this]() {close();});
 
   // Our basic widget.
-  BasicWidget* widget = new BasicWidget(this);
+  BasicWidget* widget = new BasicWidget(objectFile, this);
   setCentralWidget(widget);
 }

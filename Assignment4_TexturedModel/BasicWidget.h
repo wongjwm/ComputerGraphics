@@ -33,6 +33,7 @@ private:
 
   
 protected:
+  string objectFile;
   // Required interaction overrides
   void keyReleaseEvent(QKeyEvent* keyEvent) override;
 
@@ -42,7 +43,7 @@ protected:
   void paintGL() override;
 
 public:
-  BasicWidget(QWidget* parent=nullptr);
+  BasicWidget(string obFile, QWidget* parent=nullptr);
   virtual ~BasicWidget();
   
   // Make sure we have some size that makes sense.

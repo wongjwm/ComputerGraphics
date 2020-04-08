@@ -5,13 +5,15 @@
 #include <QtGui>
 #include <QtCore>
 #include <QtWidgets>
+using namespace std;
 
 class Application : public QMainWindow
 {
   Q_OBJECT
 
 public:
-  Application(QWidget* parent=0);
+  Application(string objFile, QWidget* parent=0);
+  void setFile(string objectFile);
   virtual ~Application();
   
 signals:
@@ -19,5 +21,6 @@ signals:
 public slots:
 
 private:
+  string objectFile;
   void buildGui();
 };
