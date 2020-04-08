@@ -26,16 +26,25 @@ CMakeFiles/Assignment.dir/Assignment_autogen/mocs_compilation.cpp.o
 CMakeFiles/Assignment.dir/BasicWidget.cpp.o
  /Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/BasicWidget.cpp
  /Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/BasicWidget.h
+ /Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/Parser.h
+ /Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/Renderable.h
+ /Users/judywong/Qt/5.14.0/clang_64/lib/QtCore.framework/QtCore
+ /Users/judywong/Qt/5.14.0/clang_64/lib/QtGui.framework/QtGui
+ /Users/judywong/Qt/5.14.0/clang_64/lib/QtOpenGL.framework/QtOpenGL
+ /Users/judywong/Qt/5.14.0/clang_64/lib/QtWidgets.framework/QtWidgets
+CMakeFiles/Assignment.dir/Parser.cpp.o
  /Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/Parser.cpp
+ /Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/Parser.h
+ /Users/judywong/Qt/5.14.0/clang_64/lib/QtOpenGL.framework/QtOpenGL
+CMakeFiles/Assignment.dir/Renderable.cpp.o
  /Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/Parser.h
  /Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/Renderable.cpp
  /Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/Renderable.h
  /Users/judywong/Qt/5.14.0/clang_64/lib/QtCore.framework/QtCore
  /Users/judywong/Qt/5.14.0/clang_64/lib/QtGui.framework/QtGui
  /Users/judywong/Qt/5.14.0/clang_64/lib/QtOpenGL.framework/QtOpenGL
- /Users/judywong/Qt/5.14.0/clang_64/lib/QtWidgets.framework/QtWidgets
 CMakeFiles/Assignment.dir/main.cpp.o
- /Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/Application.h
+ ../Application.h
  /Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/main.cpp
  /Users/judywong/Qt/5.14.0/clang_64/lib/QtCore.framework/QtCore
  /Users/judywong/Qt/5.14.0/clang_64/lib/QtGui.framework/QtGui

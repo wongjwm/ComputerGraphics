@@ -16,6 +16,16 @@
 			"/Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/BasicWidget.h",
 			"Mu",
 			"EWIEGA46WW/moc_BasicWidget.cpp"
+		],
+		[
+			"/Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/Parser.h",
+			"Mu",
+			"EWIEGA46WW/moc_Parser.cpp"
+		],
+		[
+			"/Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/Renderable.h",
+			"Mu",
+			"EWIEGA46WW/moc_Renderable.cpp"
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -86,6 +96,14 @@
 		],
 		[
 			"/Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/BasicWidget.cpp",
+			"Mu"
+		],
+		[
+			"/Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/Parser.cpp",
+			"Mu"
+		],
+		[
+			"/Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/Renderable.cpp",
 			"Mu"
 		],
 		[

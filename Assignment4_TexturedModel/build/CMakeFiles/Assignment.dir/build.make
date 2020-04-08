@@ -70,18 +70,18 @@ CMakeFiles/Assignment.dir/Assignment_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment.dir/Assignment_autogen/mocs_compilation.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/build/Assignment_autogen/mocs_compilation.cpp -o CMakeFiles/Assignment.dir/Assignment_autogen/mocs_compilation.cpp.s
 
-CMakeFiles/Assignment.dir/BasicWidget.cpp.o: CMakeFiles/Assignment.dir/flags.make
-CMakeFiles/Assignment.dir/BasicWidget.cpp.o: ../BasicWidget.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Assignment.dir/BasicWidget.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment.dir/BasicWidget.cpp.o -c /Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/BasicWidget.cpp
+CMakeFiles/Assignment.dir/main.cpp.o: CMakeFiles/Assignment.dir/flags.make
+CMakeFiles/Assignment.dir/main.cpp.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Assignment.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment.dir/main.cpp.o -c /Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/main.cpp
 
-CMakeFiles/Assignment.dir/BasicWidget.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment.dir/BasicWidget.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/BasicWidget.cpp > CMakeFiles/Assignment.dir/BasicWidget.cpp.i
+CMakeFiles/Assignment.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment.dir/main.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/main.cpp > CMakeFiles/Assignment.dir/main.cpp.i
 
-CMakeFiles/Assignment.dir/BasicWidget.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment.dir/BasicWidget.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/BasicWidget.cpp -o CMakeFiles/Assignment.dir/BasicWidget.cpp.s
+CMakeFiles/Assignment.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment.dir/main.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/main.cpp -o CMakeFiles/Assignment.dir/main.cpp.s
 
 CMakeFiles/Assignment.dir/Application.cpp.o: CMakeFiles/Assignment.dir/flags.make
 CMakeFiles/Assignment.dir/Application.cpp.o: ../Application.cpp
@@ -96,33 +96,63 @@ CMakeFiles/Assignment.dir/Application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment.dir/Application.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/Application.cpp -o CMakeFiles/Assignment.dir/Application.cpp.s
 
-CMakeFiles/Assignment.dir/main.cpp.o: CMakeFiles/Assignment.dir/flags.make
-CMakeFiles/Assignment.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Assignment.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment.dir/main.cpp.o -c /Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/main.cpp
+CMakeFiles/Assignment.dir/BasicWidget.cpp.o: CMakeFiles/Assignment.dir/flags.make
+CMakeFiles/Assignment.dir/BasicWidget.cpp.o: ../BasicWidget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Assignment.dir/BasicWidget.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment.dir/BasicWidget.cpp.o -c /Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/BasicWidget.cpp
 
-CMakeFiles/Assignment.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/main.cpp > CMakeFiles/Assignment.dir/main.cpp.i
+CMakeFiles/Assignment.dir/BasicWidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment.dir/BasicWidget.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/BasicWidget.cpp > CMakeFiles/Assignment.dir/BasicWidget.cpp.i
 
-CMakeFiles/Assignment.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/main.cpp -o CMakeFiles/Assignment.dir/main.cpp.s
+CMakeFiles/Assignment.dir/BasicWidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment.dir/BasicWidget.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/BasicWidget.cpp -o CMakeFiles/Assignment.dir/BasicWidget.cpp.s
+
+CMakeFiles/Assignment.dir/Renderable.cpp.o: CMakeFiles/Assignment.dir/flags.make
+CMakeFiles/Assignment.dir/Renderable.cpp.o: ../Renderable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Assignment.dir/Renderable.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment.dir/Renderable.cpp.o -c /Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/Renderable.cpp
+
+CMakeFiles/Assignment.dir/Renderable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment.dir/Renderable.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/Renderable.cpp > CMakeFiles/Assignment.dir/Renderable.cpp.i
+
+CMakeFiles/Assignment.dir/Renderable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment.dir/Renderable.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/Renderable.cpp -o CMakeFiles/Assignment.dir/Renderable.cpp.s
+
+CMakeFiles/Assignment.dir/Parser.cpp.o: CMakeFiles/Assignment.dir/flags.make
+CMakeFiles/Assignment.dir/Parser.cpp.o: ../Parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Assignment.dir/Parser.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment.dir/Parser.cpp.o -c /Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/Parser.cpp
+
+CMakeFiles/Assignment.dir/Parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment.dir/Parser.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/Parser.cpp > CMakeFiles/Assignment.dir/Parser.cpp.i
+
+CMakeFiles/Assignment.dir/Parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment.dir/Parser.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/Parser.cpp -o CMakeFiles/Assignment.dir/Parser.cpp.s
 
 # Object files for target Assignment
 Assignment_OBJECTS = \
 "CMakeFiles/Assignment.dir/Assignment_autogen/mocs_compilation.cpp.o" \
-"CMakeFiles/Assignment.dir/BasicWidget.cpp.o" \
+"CMakeFiles/Assignment.dir/main.cpp.o" \
 "CMakeFiles/Assignment.dir/Application.cpp.o" \
-"CMakeFiles/Assignment.dir/main.cpp.o"
+"CMakeFiles/Assignment.dir/BasicWidget.cpp.o" \
+"CMakeFiles/Assignment.dir/Renderable.cpp.o" \
+"CMakeFiles/Assignment.dir/Parser.cpp.o"
 
 # External object files for target Assignment
 Assignment_EXTERNAL_OBJECTS =
 
 Assignment: CMakeFiles/Assignment.dir/Assignment_autogen/mocs_compilation.cpp.o
-Assignment: CMakeFiles/Assignment.dir/BasicWidget.cpp.o
-Assignment: CMakeFiles/Assignment.dir/Application.cpp.o
 Assignment: CMakeFiles/Assignment.dir/main.cpp.o
+Assignment: CMakeFiles/Assignment.dir/Application.cpp.o
+Assignment: CMakeFiles/Assignment.dir/BasicWidget.cpp.o
+Assignment: CMakeFiles/Assignment.dir/Renderable.cpp.o
+Assignment: CMakeFiles/Assignment.dir/Parser.cpp.o
 Assignment: CMakeFiles/Assignment.dir/build.make
 Assignment: /Users/judywong/Qt/5.14.0/clang_64/lib/QtOpenGL.framework/QtOpenGL
 Assignment: /System/Library/Frameworks/OpenGL.framework/OpenGL
@@ -130,7 +160,7 @@ Assignment: /Users/judywong/Qt/5.14.0/clang_64/lib/QtWidgets.framework/QtWidgets
 Assignment: /Users/judywong/Qt/5.14.0/clang_64/lib/QtGui.framework/QtGui
 Assignment: /Users/judywong/Qt/5.14.0/clang_64/lib/QtCore.framework/QtCore
 Assignment: CMakeFiles/Assignment.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Assignment"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Assignment"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Assignment.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

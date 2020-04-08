@@ -217,6 +217,60 @@ BasicWidget.cpp.s:
 	$(MAKE) -f CMakeFiles/Assignment.dir/build.make CMakeFiles/Assignment.dir/BasicWidget.cpp.s
 .PHONY : BasicWidget.cpp.s
 
+Parser.o: Parser.cpp.o
+
+.PHONY : Parser.o
+
+# target to build an object file
+Parser.cpp.o:
+	$(MAKE) -f CMakeFiles/Assignment.dir/build.make CMakeFiles/Assignment.dir/Parser.cpp.o
+.PHONY : Parser.cpp.o
+
+Parser.i: Parser.cpp.i
+
+.PHONY : Parser.i
+
+# target to preprocess a source file
+Parser.cpp.i:
+	$(MAKE) -f CMakeFiles/Assignment.dir/build.make CMakeFiles/Assignment.dir/Parser.cpp.i
+.PHONY : Parser.cpp.i
+
+Parser.s: Parser.cpp.s
+
+.PHONY : Parser.s
+
+# target to generate assembly for a file
+Parser.cpp.s:
+	$(MAKE) -f CMakeFiles/Assignment.dir/build.make CMakeFiles/Assignment.dir/Parser.cpp.s
+.PHONY : Parser.cpp.s
+
+Renderable.o: Renderable.cpp.o
+
+.PHONY : Renderable.o
+
+# target to build an object file
+Renderable.cpp.o:
+	$(MAKE) -f CMakeFiles/Assignment.dir/build.make CMakeFiles/Assignment.dir/Renderable.cpp.o
+.PHONY : Renderable.cpp.o
+
+Renderable.i: Renderable.cpp.i
+
+.PHONY : Renderable.i
+
+# target to preprocess a source file
+Renderable.cpp.i:
+	$(MAKE) -f CMakeFiles/Assignment.dir/build.make CMakeFiles/Assignment.dir/Renderable.cpp.i
+.PHONY : Renderable.cpp.i
+
+Renderable.s: Renderable.cpp.s
+
+.PHONY : Renderable.s
+
+# target to generate assembly for a file
+Renderable.cpp.s:
+	$(MAKE) -f CMakeFiles/Assignment.dir/build.make CMakeFiles/Assignment.dir/Renderable.cpp.s
+.PHONY : Renderable.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -263,6 +317,12 @@ help:
 	@echo "... BasicWidget.o"
 	@echo "... BasicWidget.i"
 	@echo "... BasicWidget.s"
+	@echo "... Parser.o"
+	@echo "... Parser.i"
+	@echo "... Parser.s"
+	@echo "... Renderable.o"
+	@echo "... Renderable.i"
+	@echo "... Renderable.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -53,6 +53,7 @@ void Renderable::init(const Parser parser)
 	// Set our model matrix to identity
 	modelMatrix_.setToIdentity();
 	// Load our texture.
+
 	texture_.setData(QImage(parser.getPPMFile().c_str()).mirrored(true, true));
 
 	vertexSize_ = 3 + 2;  // Position + texCoord
@@ -77,9 +78,9 @@ void Renderable::init(const Parser parser)
 	ibo_.bind();
 	ibo_.setUsagePattern(QOpenGLBuffer::StaticDraw);
 	
-	//vector<GLuint> indices = parser.getFinalIndices();
+	QVector<GLuint> indices = parser.getFinalIndices();
 
-	//ibo_.allocate(indices.data(), indices.size() * sizeof(unsigned int));
+	ibo_.allocate(indices.data(), indices.size() * sizeof(unsigned int));
 
 	shader_.bind();
 
@@ -125,7 +126,7 @@ void Renderable::draw(const QMatrix4x4& view, const QMatrix4x4& projection)
 
 	vao_.bind();
 	texture_.bind();
-	glDrawElements(GL_TRIANGLES, data.size(), GL_UNSIGNED_INT, 0);
+	glDrawElements(GL_TRIANGLES, parser.getFinalIndices().size(), GL_UNSIGNED_INT, 0);
 	texture_.release();
 	vao_.release();
 	shader_.release();

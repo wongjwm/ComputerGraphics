@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Assignment.dir/Application.cpp.o"
   "CMakeFiles/Assignment.dir/Assignment_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/Assignment.dir/BasicWidget.cpp.o"
+  "CMakeFiles/Assignment.dir/Parser.cpp.o"
+  "CMakeFiles/Assignment.dir/Renderable.cpp.o"
   "CMakeFiles/Assignment.dir/main.cpp.o"
 )
 

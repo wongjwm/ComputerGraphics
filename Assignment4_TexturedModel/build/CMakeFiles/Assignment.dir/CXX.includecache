@@ -65,14 +65,8 @@ QtWidgets
 /Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/BasicWidget.cpp
 BasicWidget.h
 /Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/BasicWidget.h
-Parser.cpp
-/Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/Parser.cpp
 Parser.h
 /Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/Parser.h
-Renderable.cpp
-/Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/Renderable.cpp
-Renderable.h
-/Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/Renderable.h
 vector
 -
 iostream
@@ -159,6 +153,18 @@ EWIEGA46WW/moc_Application.cpp
 /Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/build/Assignment_autogen/EWIEGA46WW/moc_Application.cpp
 EWIEGA46WW/moc_BasicWidget.cpp
 /Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/build/Assignment_autogen/EWIEGA46WW/moc_BasicWidget.cpp
+
+/Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/main.cpp
+QtCore
+-
+QtGui
+-
+QtOpenGL
+-
+iostream
+-
+Application.h
+-
 
 /Users/judywong/Qt/5.14.0/clang_64/lib/QtCore.framework/QtCore
 

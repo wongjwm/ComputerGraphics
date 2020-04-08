@@ -1,10 +1,5 @@
 #include "BasicWidget.h"
-
-#include "Parser.cpp"
 #include "Parser.h"
-
-#include "Renderable.cpp"
-#include "Renderable.h"
 
 #include <vector>
 #include <iostream>
@@ -65,10 +60,10 @@ void BasicWidget::initializeGL()
 
   test.parse("../objects/house/house_obj.obj");
 
-  // Renderable* ren = new Renderable();
-  // ren->init(test);
-  // ren->setRotationAxis(QVector3D(0., 1., 0.));
-  // renderables_.push_back(ren);
+  Renderable* ren = new Renderable();
+  ren->init(test);
+  ren->setRotationAxis(QVector3D(0., 1., 0.));
+  renderables_.push_back(ren);
 
   glViewport(0, 0, width(), height());
   frameTimer_.start();
@@ -102,7 +97,7 @@ void BasicWidget::resizeGL(int w, int h)
 void BasicWidget::paintGL()
 {
   qint64 msSinceRestart = frameTimer_.restart();
-  glDisable(GL_DEPTH_TEST);
+  glEnable(GL_DEPTH_TEST);
   glDisable(GL_CULL_FACE);
 
   glClearColor(0.f, 0.f, 0.f, 1.f);

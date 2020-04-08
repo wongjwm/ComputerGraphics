@@ -1,4 +1,3 @@
-  
 /**
  * Support code written by Erik W. Anderson
  */
@@ -8,11 +7,12 @@
 #include <QtOpenGL>
 
 // Lab application
-#include "Application.h"
+#include <iostream>
 
-static bool enableGLDebug = true;
+#include <Application.h>
 
 int main(int argc, char** argv) {
+
   QApplication a(argc, argv);
   QString appDir = a.applicationDirPath();
   QDir::setCurrent(appDir);
@@ -22,9 +22,6 @@ int main(int argc, char** argv) {
   fmt.setStencilBufferSize(8);
   fmt.setVersion(3,3);
   fmt.setProfile(QSurfaceFormat::CoreProfile);
-  if(enableGLDebug) {
-    fmt.setOption(QSurfaceFormat::DebugContext);
-  }
   QSurfaceFormat::setDefaultFormat(fmt);
   
   Application app;

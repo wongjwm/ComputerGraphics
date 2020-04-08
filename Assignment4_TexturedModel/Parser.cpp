@@ -96,7 +96,9 @@ void Parser::parseMtlFile(string mtlFile, string objFile) {
     string line;
     vector<string> tokens;
 
-    inFile.open(objFile.substr(0, objFile.find_last_of("\\/")) + "/" + mtlFile);
+    string relPath = objFile.substr(0, objFile.find_last_of("\\/"));
+
+    inFile.open(relPath + "/" + mtlFile);
 
     while (!inFile.eof()) {
         
@@ -105,18 +107,14 @@ void Parser::parseMtlFile(string mtlFile, string objFile) {
         if (tokens.size() > 0) {
             if (tokens[0].compare("map_Kd") == 0) {
                 cout << endl << "got to the ppm file: " << tokens[1] << endl;
-                ppmFile = tokens[1];
+                ppmFile = relPath + "/" + tokens[1];
             }
         }
     }
 }
 
-string Parser::getPPMFile() {
+string Parser::getPPMFile() const {
     return ppmFile;
-
-
-QVector<float> Parser::getFinalData() {
-    return finalData;
 }
 
 QVector<QVector3D> Parser::getVertices() {
@@ -143,4 +141,10 @@ QVector<GLuint> Parser::getNormalsIndices() {
     return normalIndices;
 }
 
+QVector<float> Parser::getFinalData() const {
+    return finalData;
+}
 
+QVector<GLuint> Parser::getFinalIndices() const {
+    return finalIndices;
+}

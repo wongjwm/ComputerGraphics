@@ -7,6 +7,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/Application.cpp" "/Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/build/CMakeFiles/Assignment.dir/Application.cpp.o"
   "/Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/build/Assignment_autogen/mocs_compilation.cpp" "/Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/build/CMakeFiles/Assignment.dir/Assignment_autogen/mocs_compilation.cpp.o"
   "/Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/BasicWidget.cpp" "/Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/build/CMakeFiles/Assignment.dir/BasicWidget.cpp.o"
+  "/Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/Parser.cpp" "/Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/build/CMakeFiles/Assignment.dir/Parser.cpp.o"
+  "/Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/Renderable.cpp" "/Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/build/CMakeFiles/Assignment.dir/Renderable.cpp.o"
   "/Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/main.cpp" "/Users/judywong/Desktop/ComputerGraphics/Assignment4_TexturedModel/build/CMakeFiles/Assignment.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

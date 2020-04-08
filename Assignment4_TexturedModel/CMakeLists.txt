@@ -17,9 +17,11 @@ include_directories(
 )
 
 set(srcs
-  BasicWidget.cpp
-  Application.cpp
   main.cpp
+  Application.cpp
+  BasicWidget.cpp
+  Renderable.cpp
+  Parser.cpp
 )
 
 add_executable(Assignment

@@ -18,9 +18,9 @@ class Parser {
         QVector<GLuint> getVertexIndices();
         QVector<GLuint> getTextureIndices();
         QVector<GLuint> getNormalsIndices();
-        string getPPMFile();
-        QVector<float> getFinalData();
-        QVector<GLuint> getFinalIndices();
+        string getPPMFile() const;
+        QVector<float> getFinalData() const;
+        QVector<GLuint> getFinalIndices() const;
     private:
         void parseMtlFile(string mtlFile, string objFile);
         void loadData();
