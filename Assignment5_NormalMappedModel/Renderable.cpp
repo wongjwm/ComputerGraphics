@@ -3,7 +3,7 @@
 #include <QtGui>
 #include <QtOpenGL>
 
-Renderable::Renderable() : vbo_(QOpenGLBuffer::VertexBuffer), ibo_(QOpenGLBuffer::IndexBuffer), texture_(QOpenGLTexture::Target2D), numTris_(0), vertexSize_(0), rotationAxis_(0.0, 0.0, 1.0), rotationSpeed_(0.25)
+Renderable::Renderable() : vbo_(QOpenGLBuffer::VertexBuffer), ibo_(QOpenGLBuffer::IndexBuffer), texture_(QOpenGLTexture::Target2D), normTexture_(QOpenGLTexture::Target2D), numTris_(0), vertexSize_(0), rotationAxis_(0.0, 0.0, 1.0), rotationSpeed_(0.25)
 {
 	rotationAngle_ = 0.0;
 }
@@ -13,6 +13,9 @@ Renderable::~Renderable()
 	if (texture_.isCreated()) {
 		texture_.destroy();
 	}
+	if (normTexture_.isCreated()) {
+    normTexture_.destroy();
+  }
 	if (vbo_.isCreated()) {
 		vbo_.destroy();
 	}
@@ -123,11 +126,20 @@ void Renderable::draw(const QMatrix4x4& view, const QMatrix4x4& projection)
 	shader_.setUniformValue("modelMatrix", modelMat);
 	shader_.setUniformValue("viewMatrix", view);
 	shader_.setUniformValue("projectionMatrix", projection);
+  shader_.setUniformValue("pointLights[0].color", 1.0f, 1.0f, 1.0f);
+  shader_.setUniformValue("pointLights[0].position", QVector3D(0.5f, 0.5f, -5.0f));
+  shader_.setUniformValue("pointLights[0].ambientIntensity", 0.5f);
+  shader_.setUniformValue("pointLights[0].specularStrength", 0.5f);
+  shader_.setUniformValue("pointLights[0].constant", 1.0f);
+  shader_.setUniformValue("pointLights[0].linear", 0.09f);
+  shader_.setUniformValue("pointLights[0].quadratic", 0.032f);
 
 	vao_.bind();
 	texture_.bind();
 	glDrawElements(GL_TRIANGLES, parser.getFinalIndices().size(), GL_UNSIGNED_INT, 0);
 	texture_.release();
+	
+
 	vao_.release();
 	shader_.release();
 }

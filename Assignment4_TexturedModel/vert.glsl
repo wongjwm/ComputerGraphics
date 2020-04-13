@@ -1,7 +1,8 @@
 #version 330
 layout(location = 0) in vec3 position;
 
-layout(location=1) in vec2 textureCoords;
+layout(location=1) in vec3 normCoords;
+layout(location=2) in vec2 textureCoords;
 
 
 //in vec2 textureCoords;
