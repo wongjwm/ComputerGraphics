@@ -10,8 +10,8 @@ in vec3 normCoords;
 out vec4 fragColor;
 
 struct PointLight {
-    vec3 position;
     vec3 color;
+    vec3 position;
     vec3 ambient;
     vec3 diffuse;
     vec3 specular;
@@ -48,6 +48,6 @@ void main() {
     float specularLight = pow(max(dot(viewDirection, reflectDirection), 0.0), 32);
     specular += pointLights[i].specularIntensity * specularLight * pointLights[i].color;  
   }
-  vec3 light = ambient + specular + diffuseTex;
+  vec3 light = ambient + specular + diffuseLight;
   fragColor = vec4(diffuseColor * light, 1.0);
 }

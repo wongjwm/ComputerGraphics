@@ -100,6 +100,7 @@ void Parser::parseMtlFile(string mtlFile, string objFile) {
 
     inFile.open(relPath + "/" + mtlFile);
 
+
     while (!inFile.eof()) {
         
         getline(inFile, line);
@@ -110,7 +111,7 @@ void Parser::parseMtlFile(string mtlFile, string objFile) {
                 ppmFile = relPath + "/" + tokens[1];
             }
         }
-        if (tokens.size() > 0) {
+        else if (tokens.size() > 0) {
             if (tokens[0].compare("map_Bump") == 0) {
                 cout << endl << "got to the ppm file: " << tokens[1] << endl;
                 ppmFile = relPath + "/" + tokens[1];

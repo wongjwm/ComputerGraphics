@@ -58,6 +58,7 @@ void Renderable::init(const Parser parser)
 	// Load our texture.
 
 	texture_.setData(QImage(parser.getPPMFile().c_str()).mirrored(true, true));
+	normTexture_.setData(QImage(parser.getPPMFile().c_str()).mirrored(true, true));
 
 	vertexSize_ = 3 + 2;  // Position + texCoord
 
@@ -90,8 +91,18 @@ void Renderable::init(const Parser parser)
 	// Make sure we setup our shader inputs properly
 	shader_.enableAttributeArray(0);
 	shader_.setAttributeBuffer(0, GL_FLOAT, 0, 3, vertexSize_ * sizeof(float));
+
 	shader_.enableAttributeArray(1);
 	shader_.setAttributeBuffer(1, GL_FLOAT, 3 * sizeof(float), 2, vertexSize_ * sizeof(float));
+
+	shader_.enableAttributeArray(2);
+  shader_.setAttributeBuffer(2, GL_FLOAT, 6 * sizeof(GL_FLOAT), 2, 8 * sizeof(GL_FLOAT));
+
+	shader_.enableAttributeArray(3);
+	shader_.setAttributeBuffer(3, GL_FLOAT, 8 * sizeof(float), 3, vertexSize_ * sizeof(float));
+
+	shader_.enableAttributeArray(4);
+	shader_.setAttributeBuffer(4, GL_FLOAT, 11 * sizeof(float), 3, vertexSize_ * sizeof(float));
 
 	// Release our vao and THEN release our buffers.
 	vao_.release();
