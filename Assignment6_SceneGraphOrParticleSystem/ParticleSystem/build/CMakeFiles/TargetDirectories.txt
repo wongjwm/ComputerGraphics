@@ -1,0 +1,4 @@
+/Users/judywong/Desktop/ComputerGraphics/Assignment6_SceneGraphOrParticleSystem/ParticleSystem/build/CMakeFiles/rebuild_cache.dir
+/Users/judywong/Desktop/ComputerGraphics/Assignment6_SceneGraphOrParticleSystem/ParticleSystem/build/CMakeFiles/edit_cache.dir
+/Users/judywong/Desktop/ComputerGraphics/Assignment6_SceneGraphOrParticleSystem/ParticleSystem/build/CMakeFiles/Assignment.dir
+/Users/judywong/Desktop/ComputerGraphics/Assignment6_SceneGraphOrParticleSystem/ParticleSystem/build/CMakeFiles/Assignment_autogen.dir

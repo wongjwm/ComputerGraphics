@@ -1,22 +1,34 @@
-#include <QtCore>
-#include <QtGui>
-#include <QtOpenGL>
+#include "Particle.h"
+
 #include <iostream>
-#include <Application.h>
-#include "Renderable.h"
+
 using namespace std;
 
-class Particle {
+Particle::Particle(Renderable* ren, const QMatrix4x4& transform, const QVector3D& velocity, float ttl) {
+    renderable_ = ren;
+    transform_ = transform;
+    velocity_ = velocity;
+    timeToLive_ = ttl;
+}
 
-protected:
-  Renderable* modelToRender_;
-  QMatrix4x4 particleTransform_;
-  QVector3D velocity_;
-  float secondsLeftToLive_;
+void Particle::update(unsigned int msSinceLastUpdate) {
+    float seconds = msSinceLastUpdate / 1000.0;
+    timeToLive_ -= seconds;
+    transform_.translate(velocity_);
+    velocity_ -= seconds * QVector3D(0, 2., 0.);
+}
 
-public:
-  Particle(Renderable* model, const QVector3D& velocity, float lifespan);
+void Particle::draw(const QMatrix4x4& projection, const QMatrix4x4& view) {
+    if (isDead()) {
+        return;
+    }
 
-  void updateAndDraw(unsigned int msSinceLastFrame);
-  bool isDead() const {return secondsLeftToLive_ > 0.0;}
-};
+    renderable_->setModelMatrix(transform_);
+    renderable_->draw(view, projection);
+}
+
+bool Particle::isDead() {
+    return timeToLive_ < 0;
+}
+
+Particle::~Particle() {}

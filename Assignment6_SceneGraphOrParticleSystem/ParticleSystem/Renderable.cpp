@@ -1,5 +1,6 @@
 #include "Renderable.h"
 
+#include <iostream>
 #include <QtGui>
 #include <QtOpenGL>
 

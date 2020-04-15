@@ -5,15 +5,15 @@
 #include <QtCore>
 #include <QtGui>
 #include <QtOpenGL>
-#include <iostream>
-#include <Application.h>
-using namespace std;
 
+// Lab application
+#include <iostream>
+
+#include <Application.h>
 
 int main(int argc, char** argv) {
 
-  string objectFile = argv[1];
-
+  string objFile = argv[1];
   QApplication a(argc, argv);
   QString appDir = a.applicationDirPath();
   QDir::setCurrent(appDir);
@@ -25,7 +25,7 @@ int main(int argc, char** argv) {
   fmt.setProfile(QSurfaceFormat::CoreProfile);
   QSurfaceFormat::setDefaultFormat(fmt);
   
-  Application app(objectFile);
+  Application app(objFile);
   app.show();
   return QApplication::exec();
 }
