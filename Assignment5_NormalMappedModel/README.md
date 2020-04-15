@@ -5,13 +5,11 @@
 
 *TODO*: Please edit the following information in your assignment
 
-* Name and partners name(At most 1 partner for this Assignment): 
-* How many hours did it take you to complete this Assignment? 
+* Name and partners name(At most 1 partner for this Assignment): Judy Wong and John Phillip
+* How many hours did it take you to complete this Assignment? 10 hours
 * Did you collaborate or share ideas with any other students/TAs/Professors? 
 * Did you use any external resources? 
-  * (tbd if any)
-  * (tbd if any)
-  * (tbd if any)
+  * https://learnopengl.com/Advanced-Lighting/Normal-Mapping
 * (Optional) What was the most interesting part of the assignment? How would you improve this assignment?
   
 ## Description
