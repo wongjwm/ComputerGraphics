@@ -1,5 +1,6 @@
 #include "BasicWidget.h"
 #include "Parser.h"
+#include "UnitQuad.h"
 
 #include <vector>
 #include <iostream>
@@ -8,11 +9,8 @@ using namespace std;
 
 //////////////////////////////////////////////////////////////////////
 // Publics
-BasicWidget::BasicWidget(string obFile, QWidget* parent) : QOpenGLWidget(parent), logger_(this)
+BasicWidget::BasicWidget(QWidget* parent) : QOpenGLWidget(parent), logger_(this)
 {
-  objectFile = obFile;
-  cout << "In BasicWidget constructor, objectfile = " << objectFile << endl;
-
   setFocusPolicy(Qt::StrongFocus);
   isWireframe = false;
 }
@@ -57,16 +55,16 @@ void BasicWidget::initializeGL()
   qDebug() << "  Version: " << reinterpret_cast<const char*>(glGetString(GL_VERSION));
   qDebug() << "  GLSL Version: " << reinterpret_cast<const char*>(glGetString(GL_SHADING_LANGUAGE_VERSION));
 
+  QString brickWall = "../../objects/brickWall_lowRes/brickWall_diffuse.ppm";
+  QString normalWall = "../../objects/brickWall_lowRes/brickWall_normal.ppm";
 
-  Parser test;
-
-  //test.parse("../objects/house/house_obj.obj");
-  test.parse(objectFile);
-
-  Renderable* ren = new Renderable();
-  ren->init(test);
-  ren->setRotationAxis(QVector3D(0., 1., 0.));
-  renderables_.push_back(ren);
+  UnitQuad* wall = new UnitQuad();
+  wall->init(brickWall, normalWall);
+  QMatrix4x4 bf;
+  bf.setToIdentity();
+  bf.scale(1.0, 1.0, -1.0);
+  wall->setModelMatrix(bf);
+  renderables_.push_back(wall);
 
   glViewport(0, 0, width(), height());
   frameTimer_.start();

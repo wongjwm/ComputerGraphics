@@ -271,6 +271,33 @@ Renderable.cpp.s:
 	$(MAKE) -f CMakeFiles/Assignment.dir/build.make CMakeFiles/Assignment.dir/Renderable.cpp.s
 .PHONY : Renderable.cpp.s
 
+UnitQuad.o: UnitQuad.cpp.o
+
+.PHONY : UnitQuad.o
+
+# target to build an object file
+UnitQuad.cpp.o:
+	$(MAKE) -f CMakeFiles/Assignment.dir/build.make CMakeFiles/Assignment.dir/UnitQuad.cpp.o
+.PHONY : UnitQuad.cpp.o
+
+UnitQuad.i: UnitQuad.cpp.i
+
+.PHONY : UnitQuad.i
+
+# target to preprocess a source file
+UnitQuad.cpp.i:
+	$(MAKE) -f CMakeFiles/Assignment.dir/build.make CMakeFiles/Assignment.dir/UnitQuad.cpp.i
+.PHONY : UnitQuad.cpp.i
+
+UnitQuad.s: UnitQuad.cpp.s
+
+.PHONY : UnitQuad.s
+
+# target to generate assembly for a file
+UnitQuad.cpp.s:
+	$(MAKE) -f CMakeFiles/Assignment.dir/build.make CMakeFiles/Assignment.dir/UnitQuad.cpp.s
+.PHONY : UnitQuad.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -323,6 +350,9 @@ help:
 	@echo "... Renderable.o"
 	@echo "... Renderable.i"
 	@echo "... Renderable.s"
+	@echo "... UnitQuad.o"
+	@echo "... UnitQuad.i"
+	@echo "... UnitQuad.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

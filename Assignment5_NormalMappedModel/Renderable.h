@@ -43,7 +43,7 @@ public:
 	// currently don't use normals in our implementation, but the array is checked
 	// for the appropriate size.  The values can be all 0, but must be the same size as
 	// the position array!
-	virtual void init(Parser parser);
+	virtual void init(const QVector<QVector3D>& positions, const QVector<QVector3D>& normals, const QVector<QVector2D>& texCoords, const QVector<unsigned int>& indexes, const QVector<QVector3D> tangents, const QVector<QVector3D> bitangents,const QString& textureFile, const QString& normalFile);
 	virtual void update(const qint64 msSinceLastFrame);
 	virtual void draw(const QMatrix4x4& view, const QMatrix4x4& projection);
 

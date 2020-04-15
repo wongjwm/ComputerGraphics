@@ -9,6 +9,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Assignment.dir/BasicWidget.cpp.o"
   "CMakeFiles/Assignment.dir/Parser.cpp.o"
   "CMakeFiles/Assignment.dir/Renderable.cpp.o"
+  "CMakeFiles/Assignment.dir/UnitQuad.cpp.o"
   "CMakeFiles/Assignment.dir/main.cpp.o"
 )
 

@@ -12,7 +12,7 @@ class Application : public QMainWindow
   Q_OBJECT
 
 public:
-  Application(string objFile, QWidget* parent=0);
+  Application(QWidget* parent=0);
   void setFile(string objectFile);
   virtual ~Application();
   

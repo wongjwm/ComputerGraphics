@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/judywong/Desktop/ComputerGraphics/Assignment5_NormalMappedModel/BasicWidget.cpp" "/Users/judywong/Desktop/ComputerGraphics/Assignment5_NormalMappedModel/build/CMakeFiles/Assignment.dir/BasicWidget.cpp.o"
   "/Users/judywong/Desktop/ComputerGraphics/Assignment5_NormalMappedModel/Parser.cpp" "/Users/judywong/Desktop/ComputerGraphics/Assignment5_NormalMappedModel/build/CMakeFiles/Assignment.dir/Parser.cpp.o"
   "/Users/judywong/Desktop/ComputerGraphics/Assignment5_NormalMappedModel/Renderable.cpp" "/Users/judywong/Desktop/ComputerGraphics/Assignment5_NormalMappedModel/build/CMakeFiles/Assignment.dir/Renderable.cpp.o"
+  "/Users/judywong/Desktop/ComputerGraphics/Assignment5_NormalMappedModel/UnitQuad.cpp" "/Users/judywong/Desktop/ComputerGraphics/Assignment5_NormalMappedModel/build/CMakeFiles/Assignment.dir/UnitQuad.cpp.o"
   "/Users/judywong/Desktop/ComputerGraphics/Assignment5_NormalMappedModel/main.cpp" "/Users/judywong/Desktop/ComputerGraphics/Assignment5_NormalMappedModel/build/CMakeFiles/Assignment.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

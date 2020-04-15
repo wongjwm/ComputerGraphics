@@ -12,8 +12,6 @@ using namespace std;
 
 int main(int argc, char** argv) {
 
-  string objectFile = argv[1];
-
   QApplication a(argc, argv);
   QString appDir = a.applicationDirPath();
   QDir::setCurrent(appDir);
@@ -25,7 +23,7 @@ int main(int argc, char** argv) {
   fmt.setProfile(QSurfaceFormat::CoreProfile);
   QSurfaceFormat::setDefaultFormat(fmt);
   
-  Application app(objectFile);
+  Application app;
   app.show();
   return QApplication::exec();
 }

@@ -26,6 +26,11 @@
 			"/Users/judywong/Desktop/ComputerGraphics/Assignment5_NormalMappedModel/Renderable.h",
 			"Mu",
 			"EWIEGA46WW/moc_Renderable.cpp"
+		],
+		[
+			"/Users/judywong/Desktop/ComputerGraphics/Assignment5_NormalMappedModel/UnitQuad.h",
+			"Mu",
+			"EWIEGA46WW/moc_UnitQuad.cpp"
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -104,6 +109,10 @@
 		],
 		[
 			"/Users/judywong/Desktop/ComputerGraphics/Assignment5_NormalMappedModel/Renderable.cpp",
+			"Mu"
+		],
+		[
+			"/Users/judywong/Desktop/ComputerGraphics/Assignment5_NormalMappedModel/UnitQuad.cpp",
 			"Mu"
 		],
 		[

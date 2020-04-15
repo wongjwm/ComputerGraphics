@@ -22,6 +22,7 @@ set(srcs
   BasicWidget.cpp
   Renderable.cpp
   Parser.cpp
+  UnitQuad.cpp
 )
 
 add_executable(Assignment

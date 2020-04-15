@@ -28,6 +28,7 @@ CMakeFiles/Assignment.dir/BasicWidget.cpp.o
  /Users/judywong/Desktop/ComputerGraphics/Assignment5_NormalMappedModel/BasicWidget.h
  /Users/judywong/Desktop/ComputerGraphics/Assignment5_NormalMappedModel/Parser.h
  /Users/judywong/Desktop/ComputerGraphics/Assignment5_NormalMappedModel/Renderable.h
+ /Users/judywong/Desktop/ComputerGraphics/Assignment5_NormalMappedModel/UnitQuad.h
  /Users/judywong/Qt/5.14.0/clang_64/lib/QtCore.framework/QtCore
  /Users/judywong/Qt/5.14.0/clang_64/lib/QtGui.framework/QtGui
  /Users/judywong/Qt/5.14.0/clang_64/lib/QtOpenGL.framework/QtOpenGL
@@ -40,6 +41,15 @@ CMakeFiles/Assignment.dir/Renderable.cpp.o
  /Users/judywong/Desktop/ComputerGraphics/Assignment5_NormalMappedModel/Parser.h
  /Users/judywong/Desktop/ComputerGraphics/Assignment5_NormalMappedModel/Renderable.cpp
  /Users/judywong/Desktop/ComputerGraphics/Assignment5_NormalMappedModel/Renderable.h
+ /Users/judywong/Desktop/ComputerGraphics/Assignment5_NormalMappedModel/UnitQuad.h
+ /Users/judywong/Qt/5.14.0/clang_64/lib/QtCore.framework/QtCore
+ /Users/judywong/Qt/5.14.0/clang_64/lib/QtGui.framework/QtGui
+ /Users/judywong/Qt/5.14.0/clang_64/lib/QtOpenGL.framework/QtOpenGL
+CMakeFiles/Assignment.dir/UnitQuad.cpp.o
+ /Users/judywong/Desktop/ComputerGraphics/Assignment5_NormalMappedModel/Parser.h
+ /Users/judywong/Desktop/ComputerGraphics/Assignment5_NormalMappedModel/Renderable.h
+ /Users/judywong/Desktop/ComputerGraphics/Assignment5_NormalMappedModel/UnitQuad.cpp
+ /Users/judywong/Desktop/ComputerGraphics/Assignment5_NormalMappedModel/UnitQuad.h
  /Users/judywong/Qt/5.14.0/clang_64/lib/QtCore.framework/QtCore
  /Users/judywong/Qt/5.14.0/clang_64/lib/QtGui.framework/QtGui
  /Users/judywong/Qt/5.14.0/clang_64/lib/QtOpenGL.framework/QtOpenGL
