@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/judywong/Desktop/ComputerGraphics/Lab9_Heightfields/Renderable.h
+QtCore
+-
+QtGui
+-
+QtOpenGL
+-
+
+/Users/judywong/Desktop/ComputerGraphics/Lab9_Heightfields/TerrainQuad.cpp
+TerrainQuad.h
+/Users/judywong/Desktop/ComputerGraphics/Lab9_Heightfields/TerrainQuad.h
+QOpenGLFunctions_3_3_core
+-
+
+/Users/judywong/Desktop/ComputerGraphics/Lab9_Heightfields/TerrainQuad.h
+Renderable.h
+/Users/judywong/Desktop/ComputerGraphics/Lab9_Heightfields/Renderable.h
+
+/Users/judywong/Qt/5.14.0/clang_64/lib/QtCore.framework/QtCore
+
+/Users/judywong/Qt/5.14.0/clang_64/lib/QtGui.framework/Headers/QOpenGLFunctions_3_3_core
+qopenglfunctions_3_3_core.h
+/Users/judywong/Qt/5.14.0/clang_64/lib/QtGui.framework/Headers/qopenglfunctions_3_3_core.h
+
+/Users/judywong/Qt/5.14.0/clang_64/lib/QtGui.framework/Headers/qopenglfunctions_3_3_core.h
+QtGui/qtguiglobal.h
+-
+QtGui/QOpenGLVersionFunctions
+-
+QtGui/qopenglcontext.h
+-
+
+/Users/judywong/Qt/5.14.0/clang_64/lib/QtGui.framework/QtGui
+
+/Users/judywong/Qt/5.14.0/clang_64/lib/QtOpenGL.framework/QtOpenGL
+
