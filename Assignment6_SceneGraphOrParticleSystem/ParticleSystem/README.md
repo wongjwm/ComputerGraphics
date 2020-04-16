@@ -2,8 +2,8 @@
 
 *TODO*: Please edit the following information in your assignment
 
-* Name and partners name(At most 1 partner for this Assignment): 
-* How many hours did it take you to complete this Assignment? 
+* Name and partners name(At most 1 partner for this Assignment): Judy Wong and John Phillip
+* How many hours did it take you to complete this Assignment? 10 hours
 * Did you collaborate or share ideas with any other students/TAs/Professors? 
 * Did you use any external resources? 
   * (tbd if any)
@@ -107,7 +107,7 @@ public:
 In a few sentences why is our approach of keeping a pointer to the
 geometry to be drawn an optimization? Note: You can learn more about [instancing](https://learnopengl.com/Advanced-OpenGL/Instancing).
   
-**Answer here**: *Your answer here*
+**Answer here**:  If a particle were to hold a full instance of the geometry, then it would be incredibly expensive on memory, since we'd need to write from CPU to GPU much more for even a single rendering call. Since we have a lot of the same repeated geometry, we can access the same spot in memory via the pointer, and minimize communication between the CPU and GPU.
   
 ## How to run your program
 
