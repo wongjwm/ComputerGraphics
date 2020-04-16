@@ -6,7 +6,7 @@
 
 * Name and partners name(At most 1 partner for this Assignment): Judy Wong & John Philip
 * How many hours did it take you to complete this Assignment? 10 hours
-* Did you collaborate or share ideas with any other students/TAs/Professors? 
+* Did you collaborate or share ideas with any other students/TAs/Professors? n/a
 * Did you use any external resources? 
   * (tbd if any)
   * (tbd if any)
